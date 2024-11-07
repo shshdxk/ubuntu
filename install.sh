@@ -17,7 +17,7 @@ git clone https://github.com/Yggdroot/indentLine ~/.vim/plugged/indentLine
 
 sudo apt clean
 
-curl -fLo ~/.zshrc https://github.com/shshdxk/ubuntu/blob/main/.zshrc
-curl -fLo ~/.vimrc https://github.com/shshdxk/ubuntu/blob/main/.vimrc
+curl -fLo ~/.zshrc https://raw.githubusercontent.com/shshdxk/ubuntu/refs/heads/main/.zshrc
+curl -fLo ~/.vimrc https://raw.githubusercontent.com/shshdxk/ubuntu/refs/heads/main/.vimrc
 
 

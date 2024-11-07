@@ -25,8 +25,8 @@ RUN git clone https://github.com/Yggdroot/indentLine ~/.vim/plugged/indentLine
 
 RUN apt clean
 
-COPY ../.zshrc /root/
-COPY ../.vimrc /root/
+RUN curl -fLo ~/.zshrc https://raw.githubusercontent.com/shshdxk/ubuntu/refs/heads/main/.zshrc
+RUN curl -fLo ~/.vimrc https://raw.githubusercontent.com/shshdxk/ubuntu/refs/heads/main/.vimrc
 WORKDIR /root
 
 
